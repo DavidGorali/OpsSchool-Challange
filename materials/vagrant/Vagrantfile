@@ -5,7 +5,7 @@ servers=[
   :box => "ubuntu/focal64",
   :ram => 512,
   :cpu => 1,
-  :provisions => [".bootstrap/bootstrap.sh","fixScripts/exercise1-fix.sh","fixScripts/exercise2-fix.sh","fixScripts/exercise3-fix.sh","fixScripts/exercise5-fix_server1.sh","fixScripts/exercise4-fix_server1.sh"]
+  :provisions => [".bootstrap/bootstrap.sh","fixScripts/exercise1-fix.sh","fixScripts/exercise2-fix.sh","fixScripts/exercise3-fix.sh","fixScripts/exercise4-fix_server1.sh","fixScripts/exercise5-fix_server1.sh"]
 },
 {
   :hostname => "server2",
@@ -13,7 +13,7 @@ servers=[
   :box => "ubuntu/focal64",
   :ram => 512,
   :cpu => 1,
-  :provisions => ["fixScripts/exercise5-fix_server2.sh","fixScripts/exercise4-fix_server2.sh"]
+  :provisions => ["fixScripts/exercise4-fix_server2.sh","fixScripts/exercise5-fix_server2.sh"]
 }
 ]
 
